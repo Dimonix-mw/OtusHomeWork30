@@ -2,6 +2,9 @@
 
 namespace OtusHomeWork30.Entities
 {
+    /// <summary>
+    /// класс дом наследуется от класса квартира
+    /// </summary>
     public class House : Flat, IPrototype<House>, ICloneable
     {
         public float SquareRegion { get; set; }

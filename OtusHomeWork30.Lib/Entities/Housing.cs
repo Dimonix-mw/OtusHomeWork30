@@ -1,5 +1,8 @@
 ﻿namespace OtusHomeWork30.Entities
 {
+    /// <summary>
+    /// абстрактный класс жилье
+    /// </summary>
     public abstract class Housing
     {
         public float Square { get; set; }
